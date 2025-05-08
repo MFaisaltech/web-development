@@ -1,0 +1,35 @@
+h1{
+    color:rgb(91, 194, 194);
+}
+main{
+    color:rgb(236, 154, 29);
+}
+.special{
+    color: hwb(0 12% 5%);
+}
+span.special{
+    color: hwb(0 12% 5%);
+}
+li.special,span.specia{
+    color:indianred;
+    font-weight: 600;
+}
+a[href="https://www.coursera.org/"]{
+    color:grey;
+}
+a.hover{
+    color:black;
+}
+    ul li.special{
+    color:green;
+    background-color: pink;
+    padding: 5px;
+    display:inline;
+}
+li#jan {
+    color:blue;
+    background-color: red;
+    padding: 5px;
+    display:inline;
+
+}

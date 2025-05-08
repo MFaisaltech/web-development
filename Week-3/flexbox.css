@@ -1,0 +1,36 @@
+.color{
+    height: 600px;
+    width: 80%;
+    background-color: antiquewhite;
+    margin: 10px auto;
+    text-align: center;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-start; */
+    /* align-items: start; */
+    flex-wrap: wrap;
+    /* justify-content: start; */
+    /* align-content: end; */
+    /* flex-wrap: wrap-reverse; */
+    /* justify-content: space-around;
+    justify-content: space-between;
+    justify-content: center;
+    justify-content: end;
+    justify-content: start; */
+
+}
+#org{
+    align-self: flex-end;
+    flex-shrink: 2;
+}
+
+h1{
+    text-align: center;
+}
+
+.color div{
+    height: 100px;
+    width: 300px;
+    color: white;
+}

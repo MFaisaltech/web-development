@@ -1,0 +1,37 @@
+header{
+    color:teal;
+}
+
+h5{
+    color:teal;
+}
+
+h2{
+    color:teal;
+}
+
+h1{
+    color:teal;
+}
+li{
+    color:sienna;
+}
+
+
+
+
+form{
+    color:blue;
+}
+h3{
+    color:black;
+    background-color:blue;
+    padding: 5x;
+    display:inline-block;
+}
+h3:hover{
+    color:chartreuse;
+}
+input[type="checkbox"] {
+    accent-color: green;
+}

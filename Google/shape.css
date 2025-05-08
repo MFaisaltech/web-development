@@ -1,0 +1,50 @@
+.search input{
+    margin-left: 150px;
+    width: 1000px;
+    height: 35px;
+    border-radius:  35px;
+    border-color: black;
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.5);
+    margin-top: 30px;
+
+}
+.google-logo {
+    height: 160px;
+    width: 160px;
+    margin-top: 80px;
+    margin-left: 560px;
+
+}
+
+
+.gmail-logo {
+    justify-items: center;
+    align-items: center;
+    /* margin-left: 180px; */
+    width: 100px;
+    height: 100px;
+}
+.facebook-logo {
+    justify-items: center;
+    align-items: center;
+    /* margin-left: 180px; */
+    width: 100px;
+    height: 100px;
+}
+.instagram-logo {
+    justify-items: center;
+    align-items: center;
+    /* margin-left: 180px; */
+    width: 100px;
+    height: 100px;
+}
+.google{
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+
+
+

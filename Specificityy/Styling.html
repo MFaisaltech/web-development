@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Filling</title>
+    <link rel="stylesheet" href="Stylingform.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <h1>Payment form</h1>
+            <hr>
+            <h2>User Information</h2>
+            <p> Name: *
+                <input type="text" required name="Name" placeholder="Faisal"> 
+            </p>
+            <p>
+                <fieldset>
+                    <legend>Gender</legend>
+                    <input type="radio" name="gender" required="Male" id="Male">Male 
+                    <input type="radio" name="gender" required="Female" id="Female">Female
+                </fieldset>
+            </p>
+            <p>
+                Address:
+                <br>
+                <textarea   placeholder="Enter your address" id="Address" cols="address"> </textarea>
+            </p>
+            <p>
+                Email: 
+                <input type="Text" required="Email" placeholder="abc@gmail.com">
+            </p>
+            <p>
+                Pincode:
+                <input type="number" required="Code" placeholder="123">
+            </p>
+            <h2>Payment Information</h2>
+            <p> Card Type:
+                <select name="Enter Card Type" >
+                    <option value="Visa" >  Visa</option>
+                    <option value="Masterpiece">Masterpiece</option>
+                    <option value="Rubay">Rubay</option>
+                </select>
+            </p>
+            <p>
+                Card Number:
+                <input type="text" placeholder="1111-2222-3333-4444"  id="Card Number">
+            </p>
+            <p>
+                Expiry Date:
+                <input type="date" placeholder="3/5/2025"  id="Expiry date">
+            </p>
+            <p>
+                CVV:
+                <input type="number" placeholder="123"  id="CVV">
+            </p>
+            <button type="Paynow">Paynow</button>
+        </form>
+       
+    </div>
+</body>
+</html>

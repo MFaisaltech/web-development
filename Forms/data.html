@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+
+    <form action="submit_page.html" method="post"> <!-- Form starts here -->
+        <input type="radio" value="Login" name="Account"> Login
+        <input type="radio" value="Signup" name="Account"> Signup
+        <br><br>
+
+        <input type="text" placeholder="Name" name="Name"><br>
+        <input type="password" placeholder="Reg:ID" name="RegID"><br>
+        <hr>
+        <input type="text" placeholder="Address" name="Address"><br>
+        <input type="text" placeholder="CNIC" name="CNIC"><br>
+        <input type="text" placeholder="University" name="University"><br>
+        <hr>
+
+        <label>Select your Gender:</label>
+        <select name="Gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+        </select>
+        <br><br>
+
+        <label>Department:</label>
+        <select name="Department">
+            <option value="Mechanical Engineering">Mechanical Engineering</option>
+            <option value="Electrical Engineering">Electrical Engineering</option>
+            <option value="Civil Engineering">Civil Engineering</option>
+            <option value="Computer System Engineering">Computer System Engineering</option>
+            <option value="Mechatronics Engineering">Mechatronics Engineering</option>
+            <option value="Mining Engineering">Mining Engineering</option>
+        </select>
+        <br><br>
+
+        <label>Select your Courses:</label><br>
+        <input type="checkbox" value="Calculus" name="Subject"> Calculus<br>
+        <input type="checkbox" value="DSA" name="Subject"> DSA<br>
+        <input type="checkbox" value="Automata Theory" name="Subject"> Automata Theory<br>
+        <input type="checkbox" value="Management" name="Subject"> Management<br>
+        <input type="checkbox" value="Probability" name="Subject"> Probability<br>
+        <input type="checkbox" value="Software Engineering" name="Subject"> Software Engineering<br>
+        <input type="checkbox" value="English" name="Subject"> English<br>
+        <input type="checkbox" value="Pakistan Study" name="Subject"> Pakistan Study<br>
+        <hr>
+
+        <label>Enter your Whatsapp No:</label><br>
+        <input type="text" placeholder="Whatsapp" name="Whatsapp"><br><br>
+
+        <label>Give Your Valuable Feedback:</label><br>
+        <textarea name="Feedback" placeholder="Your Feedback"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+    </form> <!-- Form ends here -->
+
+    <hr>
+    <p>Thank You:</p>
+    <a href="thanks.html">Thank You Page</a><br>
+    <p>Go Back:</p>
+    <a href="write.html">Previous Page</a>
+
+</body>
+</html>
