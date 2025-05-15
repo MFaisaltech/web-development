@@ -1,0 +1,34 @@
+.color{
+    height: 400px;
+    width: 80%;
+    border: 2px solid black;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    
+    /* flex-wrap: wrap; */
+    align-items: center; /* working on cross access, mainly used without wrap, for a single line.*/
+     /* align-content: center; working on cross access, used with wrap, for multiple lines. */
+
+    /* justify-content: space-between;    used for spaces           */
+    /* justify-content: center;
+    justify-content: end;
+    justify-content: start;  */
+    /* justify-content: center; */
+
+}
+h1{
+    text-align: center;
+}
+#org{
+    align-items: end;
+    /* flex-shrink: 2; */
+    flex-basis: 2;
+}
+
+.color div{
+    height: 50px;
+    width: 100px;
+    color: white;
+}
