@@ -1,0 +1,37 @@
+h1{
+    height: 40px;
+    border: 2px solid black;
+    background-color: rgb(151, 99, 61);
+}
+
+
+
+/* @media (width: 400px){
+    h1{
+        background-color: green;
+        color: antiquewhite;
+    }
+    div{
+        width: 60px;
+        height: 60px;
+        background-color: blueviolet;
+    }
+} */
+
+@media (max-width: 400px){
+    h1{
+        background-color: rgb(12, 94, 97);
+    }
+}
+
+/* @media (min-width: 200px) and (max-width: 500px){
+    h1{
+        background-color: beige;
+    }
+} */
+
+@media (orientation: landscape){
+    h1{
+        background-color: aqua;   /*for phone horizontal, and for portrait vertical */
+    }
+}

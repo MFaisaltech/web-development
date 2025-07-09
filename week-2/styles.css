@@ -1,0 +1,55 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: burlywood;
+    margin-top: 5px;
+    margin: auto;
+}
+
+div:nth-of-type(2n) {
+    background-color: aqua;
+
+}
+
+div:nth-of-type(3n) {
+    background-color: #fff873;
+
+}
+
+#one{
+    transform: rotate(90deg);
+}
+#two{
+
+    transform: scale(0.9,0.8);
+}
+
+#three{
+    transform: translate(-300px);
+}
+#four{
+    transform: skew(20deg);
+}
+
+#five{
+    transform: rotate(30deg) translate(-60px);
+}
+
+#boxshadow{
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+  
+    text-align: center;
+    background-color: rgb(98, 190, 226);
+    margin-top: 50px;
+    box-shadow: 2px 2px 8px rebeccapurple;
+
+    
+}

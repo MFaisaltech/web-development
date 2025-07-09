@@ -1,0 +1,198 @@
+.main {
+    height: 450px;
+    width: 60%;
+    background-color:  #9ba4a8;
+    font-family: "Open Sans", sans-serif;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px ;
+}
+
+.space {
+  position: relative;
+  background-color: #80878a;
+  display: block;
+  top: 70px;
+  left: 250px;
+  width: 350px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 24px;
+  padding: 2px 12px;
+}
+
+.space input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 14px;
+  color: white; /* or black, depending on your design */
+}
+
+.customer{
+    transform: translate(90px, 30px);
+}
+
+.photo {
+    height: 40%;
+    width: 60%;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+    right: 660px;
+    top: -170px;
+}
+
+.main .inside{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    left: 50px;
+    top: 80px;
+}
+
+.top{
+    width: auto;
+    height: auto;
+    position: relative;
+    top: -100px;
+    left: 50px;
+}
+.write{
+    width: 90px;
+    height: auto;
+    transform: translate(700px, -180px);
+    font-size: small;
+    
+}
+.top .cus{
+    font-size: smaller;
+    transform: translate(90px, 8px);
+
+}
+.rating{
+    transform: translate(90px, 10px);
+
+}
+.top .rat{
+     font-size: smaller;
+     transform: translate(90px, -10px);
+
+
+}
+.main .inside button{
+    background-color: greenyellow;
+    width: 90px;
+    height: 30px;
+    border: 10px;
+    border-radius: 9px;
+    position: relative;
+    left: auto;
+
+}
+
+.parttwo{
+    height: 450px;
+    width: 60%;
+    font-family: "Open Sans", sans-serif;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px ;
+    margin-top: 200px;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    line-height: 10%;
+
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  width: 80%;
+  margin: 100px auto;
+  margin-top: 400px;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.card {
+  width: 250px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.content {
+  padding: 10px;
+}
+
+.khan{
+    margin-top: 120px;
+}
+.whitecontent{
+    margin-top: 127px;
+}
+.partthree{
+    height: 450px;
+    width: 60%;
+    font-family: "Open Sans", sans-serif;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px ;
+    margin-top: 1px;
+    display: inline-block;
+    position: absolute;
+    left: 600px;
+    line-height: 10%;
+}
+
+.red{
+    height: auto;
+    width: auto;
+     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px ;
+    padding-right: 100px;
+
+}
+
+.red button{
+    background-color: greenyellow;
+    width: 150px;
+    height: 50px;
+    border: 10px;
+    border-radius: 9px;
+    position: relative;
+    left: 90px;
+    top: 100px;
+
+}
+.red button:hover{
+    box-shadow: 2px 1px ;
+}
+.main .inside button:hover {
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
