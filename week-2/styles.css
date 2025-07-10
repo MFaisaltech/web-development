@@ -27,6 +27,7 @@ div:nth-of-type(3n) {
 }
 #two{
 
+<<<<<<< HEAD
     transform: scale(0.9,0.8);
 }
 
@@ -35,6 +36,16 @@ div:nth-of-type(3n) {
 }
 #four{
     transform: skew(20deg);
+=======
+    transform: scale(0.3,0.3);
+}
+
+#three{
+    transform: translate(-30px);
+}
+#four{
+    transform: skew(40deg);
+>>>>>>> 504825ec686166b5e062ace7f1fedc17affdbfad
 }
 
 #five{
