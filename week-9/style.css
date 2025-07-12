@@ -1,0 +1,186 @@
+.main{
+  width: 80%;
+  margin: 0 auto;                /* ✅ Center horizontally */
+  padding: 1rem;
+
+}
+.nav-bar{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem; 
+    /* background-color: whitesmoke; */
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+.nav-content{
+    display: flex;
+    align-items: center;
+    gap: 4.5rem;
+    text-decoration: none;
+    color: black;
+    padding-right: 15rem;
+}
+.nav-content a{
+    color: black;
+}
+.home{
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+}
+.home-img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: inherit;
+}
+.home-title {
+  position: absolute;
+  top: 17%;
+  left: 8%;
+  color: white;               /* Change color as needed */
+}
+.cel{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    letter-spacing: 12px;
+}
+.weh{
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    left: 20%;
+}
+.home-title button{
+    position: relative;
+    top: 3rem;
+    left: 10rem;
+}
+.content {
+  display: flex;               /* ✅ Required */
+  align-items: center;         /* Vertically center items */
+  justify-content: center;     /* Horizontally center items */
+  width: 70%;
+  margin: 0 auto;              /* Optional: center container itself horizontally */
+  gap: 5rem;
+  position: relative;
+  top: 2rem;
+  margin-bottom: 3rem;
+}
+.content-title{
+    font-weight: bolder;
+    font-size: x-large;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+.card {
+  width: 300px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+.card-title {
+  padding: 1rem 0;
+}
+.card-title h3,
+.card-title h5 {
+  margin: 0.3rem;
+}
+
+.crop {
+  margin: 2rem;
+  display: flex;
+  width: 950px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;         /* ✅ This keeps the image inside rounded */
+}
+
+.crop img {
+  width: 110%;
+  height: auto;
+  display: block;
+  border-radius: inherit;  
+}
+.crop-title{
+    margin-left: 6rem;
+    margin-top: 0.5rem;
+    gap: 2rem;
+}
+.crop-title button{
+    margin-left: 5rem;
+}
+.footer {
+  font-family: 'Poppins', sans-serif;
+  margin-top: 4rem;
+}
+
+/* Top black section */
+.footer-black {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 1rem;
+  text-align: center;
+  height: 250px;
+  border-radius: 12px;
+}
+
+.footer-write h5 {
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.footer-write h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-button {
+  margin-top: 1.5rem;
+}
+
+.footer-button input[type="text"] {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 310px;
+  max-width: 80%;
+  margin-right: 0.5rem;
+}
+
+/* Bottom white section */
+.footer-social {
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 1rem;
+  flex-wrap: wrap;
+}
+
+.footer-social a {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.footer-social a:hover {
+  color: #000;
+  font-weight: 500;
+}
