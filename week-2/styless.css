@@ -1,0 +1,9 @@
+div{
+    height: 400px;
+    width: 700px;
+    background-color: burlywood;
+    box-shadow: 4px 4px black;
+    margin: 10px auto;
+    background-image: url(photo.avif);
+    background-size: cover;
+}
