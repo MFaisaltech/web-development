@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML + JS Practice</title>
+  <link rel="stylesheet", href="style.css">
+  <!-- Link to external JavaScript -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <h1 id="main-heading">DOM Practice</h1>
+
+  <!-- Original Paragraphs and Links -->
+  <p>This is the first paragraph. It contains a 
+    <a href="https://www.google.com" target="_blank">link to Google</a>.
+  </p>
+
+  <p>This is the second paragraph. Here's another 
+    <a href="https://chat.openai.com" target="_blank">link to ChatGPT</a>.
+  </p>
+
+  <p>This is the third paragraph. Below is an image:</p>
+  <img src="Faisal.jpeg" alt="Placeholder Image" style="height: 100px; width: 100px;" id="mainImg"/>
+
+  <p>Last paragraph for testing JavaScript <code>querySelectorAll()</code> and <code>getElementsByTagName()</code>.</p>
+
+  <!-- Boxes -->
+  <div class="box" id="box1">Box 1</div>
+  <div class="box" id="box2">Box 2</div>
+  <div class="box" id="box3">Box 3</div>
+  <div class="box">
+    <h4>Publication Info</h4>
+    <ul>
+      <li><a href="#" class="boxlink">Publisher</a></li>
+      <li><a href="#" class="boxlink">First Appearance</a>
+        <ul>
+          <li><a href="#" class="boxlink">Stan Lee</a></li>
+          <li><a href="#" class="boxlink">Steve Ditko</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+
+  <!-- Input and Button -->
+  <input type="text" id="inputField" placeholder="Type something...">
+  <button id="btn">Click Me</button>
+
+  <!-- More Paragraphs -->
+  <p class="paragraph">Paragraph 1</p>
+  <p class="paragraph">Paragraph 2</p>
+
+  <!-- List -->
+  <ul id="list">
+    <li class="item">Item 1</li>
+    <li class="item">Item 2</li>
+    <li class="item">Item 3</li>
+  </ul>
+
+  <!-- Output Area -->
+  <div id="output"></div>
+
+</body>
+</html>

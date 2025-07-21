@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .box {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+  }
+  #output {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+  }
+  .yellowBg{
+    background-color: yellow;
+  }
