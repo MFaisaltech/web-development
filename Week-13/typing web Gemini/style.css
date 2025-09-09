@@ -1,0 +1,186 @@
+:root {
+    --bg-color: #282a36;
+    --text-color: #f8f8f2;
+    --subtle-text-color: #6272a4;
+    --caret-color: #f1fa8c;
+    --correct-color: #50fa7b;
+    --incorrect-color: #ff5555;
+    --accent-color: #bd93f9;
+    --main-font: 'Roboto Mono', monospace;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--main-font);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    position: relative; /* Needed for positioning the results screen */
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: var(--correct-color);
+    margin-bottom: 20px;
+}
+
+.time-options {
+    margin-bottom: 20px;
+}
+
+.time-btn {
+    background: none;
+    border: 1px solid var(--subtle-text-color);
+    color: var(--subtle-text-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    cursor: pointer;
+    margin: 0 5px;
+    transition: all 0.2s;
+}
+
+.time-btn:hover {
+    background-color: var(--subtle-text-color);
+    color: var(--bg-color);
+}
+
+.time-btn.active {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border-color: var(--accent-color);
+}
+
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+}
+
+.stat-item .label {
+    font-size: 0.8rem;
+    color: var(--subtle-text-color);
+    text-transform: uppercase;
+}
+
+.value {
+    font-weight: 700;
+}
+
+#words-container {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    position: relative;
+    user-select: none;
+    text-align: left;
+    color: var(--subtle-text-color);
+    height: 120px;
+    overflow: hidden;
+    transition: filter 0.3s; /* For the blur effect */
+}
+
+#words-container.blurred {
+    filter: blur(5px);
+}
+
+#words-container span {
+    transition: color 0.15s ease-out;
+}
+
+#words-container .correct {
+    color: var(--text-color);
+}
+
+#words-container .incorrect {
+    color: var(--incorrect-color);
+    text-decoration: underline;
+}
+
+#caret {
+    width: 2px;
+    height: 2.2rem;
+    background-color: var(--caret-color);
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: blink 1s infinite;
+    transition: left 0.1s linear, top 0.1s linear;
+}
+
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+#results-screen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    background-color: rgba(40, 42, 54, 0.95);
+    padding: 40px;
+    border-radius: 10px;
+    z-index: 10;
+    display: none; /* Initially hidden */
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+#results-screen h2 {
+    color: var(--correct-color);
+    font-size: 2rem;
+}
+
+.final-stats {
+    display: flex;
+    gap: 40px;
+    font-size: 1.8rem;
+}
+
+
+#restart-btn {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 12px 25px;
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#restart-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--accent-color);
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8rem;
+    color: var(--subtle-text-color);
+}
