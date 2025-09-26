@@ -1,0 +1,15 @@
+{
+  "name": "week-14",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Faisal khan",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "random-words": "^2.0.1"
+  }
+}
